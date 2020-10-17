@@ -1,0 +1,35 @@
+.crop-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+.logo-nasa{
+    max-width: 160px;
+}
+
+*{
+    font-family: 'Space Mono', monospace, Helvetica, sans-serif;
+}
+
+p.lead{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+a.head-link{
+    text-decoration: none !important;
+}
+p.card-text{
+    font-size: 14px;
+}
+p.card-text.small{
+    font-size: 10px;
+}
+div.hidden{
+    display: none;
+}
+.jumbotron{
+    background-size: cover;background-position: center center;
+}
+iframe.yt-vid{
+    min-height: 450px;
+}
