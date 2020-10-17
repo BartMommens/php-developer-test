@@ -2,6 +2,9 @@
 ## Instructions
 Using NASA’s “Astronomy Picture of the Day” API, build a webpage that lists the picture of the day for the last 30 days.
 
+## Info:
+Project is Laravel based
+
 ### How to get this thing up and running:   
 1.  Download this project (duh)
 2.  composer install
@@ -13,6 +16,9 @@ Using NASA’s “Astronomy Picture of the Day” API, build a webpage that list
 8.  php artisan pictures:fill (collects pictures from nasa's apod service and fills database wait for completion)
 9.  php artisan pictures:getpod (this is optional it will get the latest APOD) 
 10. php artisan schedule:work
+
+11. Open new teminal window in project folder
+12. php artisan serve (run local) 
 
 ### Step 10 :
 This starts a cronjob that checks the APOD service every hour to get the latest APOD picture. 
