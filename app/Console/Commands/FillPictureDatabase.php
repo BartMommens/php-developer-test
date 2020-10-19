@@ -53,6 +53,7 @@ class FillPictureDatabase extends Command
             $startDate->addDay(1);
         }
 
+        $this->info('Done.');
     }
 
 }
