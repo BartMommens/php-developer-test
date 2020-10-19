@@ -4,7 +4,7 @@
 
     <main role="main">
 
-        <section class="jumbotron text-center" style="background-image: url('{{$pod->url}}');background-size: cover;">
+        <section class="jumbotron text-center" style="background-image: url('{{ ($pod->media_type === 'image')? $pod->url :'/assets/img/video.png'}}');background-size: cover;">
             <div class="container p-5">
                 <a href="{{route('detail',['id' => $pod->id])}}" class="head-link">
                     <img src="/assets/img/nasa.png" class="logo-nasa mt-3 mb-4">
